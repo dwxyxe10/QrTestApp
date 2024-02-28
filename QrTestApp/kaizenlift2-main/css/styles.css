@@ -1,0 +1,31 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff; /* Text color for dark mode */
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background-color: #1f1f1f; /* Dark gray background color */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Light shadow color */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2); /* Light shadow color on hover */
+}
